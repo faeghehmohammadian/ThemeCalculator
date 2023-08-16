@@ -2,7 +2,7 @@ const themeBtn = document.querySelector(".menu");
 let themeCounter = 0;
 const root = document.querySelector(":root");
 changeTheme();
-function changeTheme() {
+export function changeTheme() {
     switch (themeCounter) {
         //black ⇩
         case 0:

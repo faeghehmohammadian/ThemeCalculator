@@ -1,1 +1,1 @@
-import {} from './ChangeTheme.js'
+import {changeTheme} from './ChangeTheme.js'
